@@ -2,6 +2,7 @@ body{
     padding: 0;
     margin: 0;
     /* background-color: black; */
+    background-image: linear-gradient(to bottom right, #FCBE00, #FA7B00, #7D0EDE);
 }
 
 .container{
@@ -14,6 +15,7 @@ body{
     flex-grow: 1;
     height: 100vh;;
     /* background-color: red; */
+    
 }
 
 
@@ -28,26 +30,24 @@ body{
 .inner-container{
     display: flex;
     flex-grow: 3;
-    /* border: 2px solid yellow; */
+    border: 2px solid black;
     border-radius: 10px 10px 10px 10px;
     flex-wrap: wrap;
     height: 24em;
     width: 24em;
+    background-image: linear-gradient(to bottom right,#7D0EDE , #FA7B00, #FCBE00);
 ;
 }
 
  .flip-box{
     height: 5em;
     width: 5em;
-    /* background-color: red; */
     border: 2px solid black;
-    border-radius: 10px 10px 10px 10px;
-   
-    margin: 6px;
-   
+    border-radius: 10px 10px 10px 10px;   
+    margin: 6px;   
     transform-style: preserve-3d;
     transition: all 0.5s ease;
-    background-color: yellow;
+    background-color: black;
 } 
 
 img{
