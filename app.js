@@ -55,11 +55,20 @@ for (let index = 0; index < shuffledImgArr.length; index++) {
 
     flipBox.addEventListener("click", (event) => {
         // event.target.style.display = "none";
-        // console.log(event.target.className);    
+        // console.log(event.target.className); 
+        
         if (event.target.className === "flip-box") {
             event.target.classList.add("flip");
+            // event.target.classList = "flip";
             event.target.children[0].style.display = "block";
-        }
+        } 
+        
+        setTimeout(() => {
+                   event.target.classList.remove("flip");
+                   event.target.children[0].style.display = "none";
+
+        }, 1000);  
+        
         cardDisplayed++;
         // cardDisplayed--;
     })
