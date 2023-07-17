@@ -35,11 +35,13 @@ body{
     flex-wrap: wrap;
     height: 24em;
     width: 24em;
+    /* background-color: white; */
     background-image: linear-gradient(to bottom right,#7D0EDE , #FA7B00, #FCBE00);
 ;
 }
 
  .flip-box{
+    position: relative;
     height: 5em;
     width: 5em;
     border: 2px solid black;
@@ -66,4 +68,20 @@ img{
 
 .rotate{
     transform: rotateY(180deg);
+}
+
+
+#startButton{
+    
+    width: 7em;
+    height: 3em;
+}
+
+.topMargin{
+    margin-top: 2em;
+}
+
+.timeAndMoves{
+    margin-top: 2em;
+    padding-left: 1em;    
 }
